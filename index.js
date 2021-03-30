@@ -30,7 +30,6 @@ const { color, bgcolor } = require('./lib/color')
 const { help } = require('./lib/help')
 const { donasi } = require('./lib/donasi')
 const { bahasa } = require('./lib/listbahasa')
-const { biografi } = require ('./lib/biografi')
 const { fetchJson } = require('./lib/fetcher')
 const { recognize } = require('./lib/ocr')
 const { virtex } = require('./src/virtex')
@@ -44,7 +43,6 @@ const imgbb = require('imgbb-uploader')
 const kagApi = require('@kagchi/kag-api')
 const lolis = require('lolis.life')
 const loli = new lolis()
-const doujinshi = require('nhentai-api')
 const speed = require('performance-now')
 const ms = require('parse-ms')
 const toMs = require('ms')
@@ -1049,7 +1047,7 @@ Waktu :* ${moment.unix(int.timestamp).format('HH:mm:ss DD/MM/YYYY')}
 				case 'Bot':
 					if (isBanned) return reply(ind.ban())
 					bot = body.slice(1)
-					const on =['Yoo👋','Hai, nani desuka? :)','What?','Bot on, ketik #menu untuk melihat menu Botol-LoL','apa Tod?']
+					const on =['Yoo👋','Hai, orang gila? :)','What?','Bot on, ketik ${prefix} untuk mengakses Pampam - Bot','apa Tod?']
 					const Bot = on[Math.floor(Math.random() * on.length)]
 					client.sendMessage(from, Bot, text, { quoted: mek })
 					await limitAdd(sender)
@@ -3134,7 +3132,7 @@ dftr = `
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Level* : ${getLevelingLevel(sender)}
 ╠☞ *User register* : ${_registered.length}
-╰════─⊱  ⸨ *Taufik - Kun* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *Pampam- Bot* ⸩  ⊰─════╯
 
            Rules - Simple
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
@@ -3343,14 +3341,12 @@ dftr = `
 
 ╠══─⊱ ❰ *THANGKS TO* ❱ ⊰─══➤
 ║
-╠☞ *Botol - LoL*
+╠☞ *Fico *
 ╠☞ *Reyna*
 ╠☞ *Damar*
 ╠☞ *Yuno*
 ╠☞ *★Taufik - Kun★*
-╰════─⊱  ⸨ *MiKako⚔️* ⸩  ⊰─════╯
-`
-client.sendMessage(from, buffer, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "★彡[Bot͢͢͢oℓ]彡 *•* MiKako★ ", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('storage/image/takagi.jpeg')}}}, caption: `${dftr}`})
+╰════─⊱  ⸨ *Pampam* ⸩  ⊰─════╯
 break
 //client.sendMessage(from, buffer, image, {quoted: mek, caption: dftr})
 //await costum(ind.menu(pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku), text, tescuk, cr)
