@@ -6,7 +6,7 @@
   
   
  <p align="center">
- <a href="#"><img title="🐊Botol LoL🐊" src="https://img.shields.io/badge/Botol LoL-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+ <a href="#"><img title="🐊Pampam Bot🐊" src="https://img.shields.io/badge/Botol LoL-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Keito-Klein"><img title="Author" src="https://img.shields.io/badge/AUTHOR-MiKako-blue.svg?style=for-the-badge&logo=github"></a>
@@ -30,13 +30,13 @@ Caranya cukup ganti yang di bawah ini
 const vcard = 'BEGIN:VCARD\n' // INI JANGAN DI UBAH, BIARIN GINI
             + 'VERSION:3.0\n'  // INI JUGA
             + 'FN:MiKako\n'  // Ganti jadi namamu
-            + 'ORG: Pengembang Taufik-Kun;\n'  // Ganti jadi namamu/Botmu
-            + 'TEL;type=CELL;type=VOICE;waid=6289675651966:+62 896-7565-1966\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
+            + 'ORG: Pengembang Fico-Shop;\n'  // Ganti jadi namamu/Botmu
+            + 'TEL;type=CELL;type=VOICE;waid=6285864236900:+62 858-6423-6900\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
             + 'END:VCARD' // jangan di ubah
 ```
 Sōshite
 ```js
-const ownerNumber = ["6289675651966@s.whatsapp.net","6285807479634@s.whatsapp.net"]  //ganti jadi nomormu
+const ownerNumber = ["6285864236900@s.whatsapp.net","6285864236900@s.whatsapp.net"]  //ganti jadi nomormu
 ```
 BTW TEMPATNYA DI index.js YA NGEOD
 
