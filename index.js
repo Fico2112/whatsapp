@@ -1,8 +1,8 @@
 /*<=====[CommandDetected]=====>*/
 /*<=====[loadSyncError507]====>*/
 /*<=====[FileSyncodeError]====>*/
-/*<=====[GetCodeTaufik-Kun]===>*/
-/*<=====[UserID[MiKako]✓]=====>*/
+/*<=====[GetCodeFico-RR]===>*/
+/*<=====[UserID[Fico]✓]=====>*/
 /*<=====[StartProject✓]=====>*/
 
 const {
