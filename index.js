@@ -65,7 +65,7 @@ const vcard = 'BEGIN:VCARD\n'  // Jangan di ubah biar ga error
 prefix = '.'
 blocked = []   
 limitawal = '100' //terserah ganti/gk
-cr = '*Dhlah Males✅*'
+cr = '*Pampam Bot NO 1✅*'
 numer = '0'
 ghoibsu = 'tes'
 myteks = 'okeh nyala'
@@ -3346,7 +3346,7 @@ dftr = `
 ╠☞ *Damar*
 ╠☞ *Yuno*
 ╠☞ *★Taufik - Kun★*
-╰════─⊱  ⸨ *Pampam* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *Pampam Bot* ⸩  ⊰─════╯
 break
 //client.sendMessage(from, buffer, image, {quoted: mek, caption: dftr})
 //await costum(ind.menu(pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku), text, tescuk, cr)
