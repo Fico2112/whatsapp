@@ -71,7 +71,7 @@ ghoibsu = 'tes'
 myteks = 'okeh nyala'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6285864236900@s.whatsapp.net","6285864236900@s.whatsapp.net"]  //ganti menjadi nomormu
+const ownerNumber = ["6285161006914@s.whatsapp.net","6285161006914@s.whatsapp.net"]  //ganti menjadi nomormu
 /************************************/
 
        
