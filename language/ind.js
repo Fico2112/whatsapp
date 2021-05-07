@@ -221,7 +221,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}pantun*
 ╠☞ *${prefix}pinterest*
 ╠☞ *${prefix}tts*
-║    contoh : #tts id MiKako yang tampan
+║    contoh :  *${prefix}id Fico yang tamvan*
 ╠☞ *${prefix}play*
 ╠☞ *${prefix}lirik*
 ╠☞ *${prefix}chord*
